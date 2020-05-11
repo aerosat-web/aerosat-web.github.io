@@ -20,14 +20,15 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
-        "#ffffff"
+        "#ffffff",
+        "#ae1212"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.0",
     "siteFonts": [],
     "imageResize": true,
-    "uniqCompNum": 7,
+    "uniqCompNum": 8,
     "versionPublish": "4.12.0",
     "screenshot": "screenshot.png",
     "cookiesAlert": {
@@ -250,9 +251,8 @@
               "src": "@PROJECT_PATH@/assets/images/20180512-logo-aerosat-fondo-blanco-circular-144x128.png",
               "height": 128,
               "alt": "Aerosat logo",
-              "link": "https://aerosat.tech",
-              "title": "Aerosat",
-              "linkInNewWindow": false
+              "link": "",
+              "title": "Aerosat"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -295,50 +295,53 @@
             "overlayColor": "#fffffd",
             "overlayOpacity": "0.5"
           },
-          "title": "valores...",
-          "text": "Confiamos en la constante dedicación en la I+D+i junto con personal altamente cualificado, &nbsp;control de calidad permantente y tecnologías de vanguardia, esencial para cumplir con las expectativas de los aeropuertos en todo el mundo. Somos su solución!!!",
+          "title": "Objetivos...",
+          "text": "Confiamos en la constante dedicación en la I+D+i junto con personal altamente cualificado, &nbsp;control de calidad permantente y tecnologías de vanguardia, esencial para cumplir con las expectativas de los aeropuertos en todo el mundo",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a>",
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "mobile",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
+              "linkInNewWindow": false,
+              "name": "growing-chart",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 40
             }
           },
-          "title1": "What is Mobirise",
+          "title1": "El conocimiento",
           "subtitle1": "Awesome",
-          "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "text1": "Tenemos más de 20 años de experiencia, desarrollando y supervisando una amplia gama de proyectos aeroportuarios. Vuestros retos, nuestra pasión.",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "responsive",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
+              "linkInNewWindow": false,
+              "name": "setting",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 40
             }
           },
-          "title2": "What is Mobirise",
+          "title2": "Saber como",
           "subtitle2": "Awesome",
-          "text2": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "text2": "Estamos en una continua actualización de las normativas y procedimientos en este ambiente tan cambiante e innovador",
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
-              "name": "mobirise",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
+              "linkInNewWindow": false,
+              "name": "users",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 40
             }
           },
-          "title3": "What is Mobirise",
+          "title3": "Capital humano",
           "subtitle3": "Awesome",
-          "text3": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "text3": "Disponemos de Ingenieros Aeronáuticos, Civiles, Obras Públicas, Eléctricos, TIC y de Sistemas de Control para ofrecerle una solución unificada a todos sus proyectos",
           "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media4": {
             "iconFont": {
@@ -373,117 +376,39 @@
             },
             ".heading-text": {
               "color": "#000000"
+            },
+            ".card-text": {
+              "color": "#000000"
+            },
+            ".card-title": {
+              "color": "#ae1212"
             }
           }
         },
         {
-          "_inherit": "features2",
           "_styles": {
-            ".card": {
-              "background-color": "transparent",
-              "box-shadow": "none",
-              "border": "none"
-            },
-            ".card-img a": {
-              "border-width": "2px",
-              "line-height": "72px"
-            },
-            ".mbr-iconfont": {
-              "color": "#616161",
-              "border-color": "#616161"
+            "p": {
+              "color": "#000"
             }
           },
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
-            "showHeading": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "contentAlign": "center",
-            "columns": 3,
-            "showFeaturesImages": true,
-            "iconsBgColor": "#616161",
-            "showFeaturesTitles": true,
-            "showFeaturesTexts": true,
-            "showFeaturesButtons": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/190601-265-foto-5-1200x1599.jpg",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
             "overlay": true,
-            "overlayColor": "#fffffd",
+            "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
+          "text": "Copyright (c) 2020 Aerosat Canarias.",
           "_tags": [
             "Theme"
           ],
-          "title": "Always on your terms",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "touch",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
-            }
-          },
-          "title1": "What is Mobirise",
-          "subtitle1": "Awesome",
-          "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "responsive",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
-            }
-          },
-          "title2": "What is Mobirise",
-          "subtitle2": "Awesome",
-          "text2": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "setting",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
-            }
-          },
-          "title3": "What is Mobirise",
-          "subtitle3": "Awesome",
-          "text3": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont",
-              "name": "hot-cup",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
-            }
-          },
-          "title4": "What is Mobirise",
-          "subtitle4": "Awesome",
-          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
-          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "_name": "features4",
-          "_anchor": "features4-3"
+          "_name": "footer4",
+          "_anchor": "footer4-7"
         }
       ]
     }

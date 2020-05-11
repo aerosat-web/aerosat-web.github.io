@@ -610,16 +610,12 @@ a:hover {
 #header1-5 .heading-text {
   color: #000000;
 }
-#features4-3 .card {
-  background-color: transparent;
-  box-shadow: none;
-  border: none;
+#header1-5 .card-text {
+  color: #000000;
 }
-#features4-3 .card-img a {
-  border-width: 2px;
-  line-height: 72px;
+#header1-5 .card-title {
+  color: #ae1212;
 }
-#features4-3 .mbr-iconfont {
-  color: #616161;
-  border-color: #616161;
+#footer4-7 p {
+  color: #000;
 }
