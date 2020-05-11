@@ -607,6 +607,9 @@ a:hover {
   color: #616161;
   text-align: center;
 }
+#header1-5 .heading-text {
+  color: #000000;
+}
 #features4-3 .card {
   background-color: transparent;
   box-shadow: none;

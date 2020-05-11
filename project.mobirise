@@ -42,7 +42,7 @@
       "text": "Usamos cookies para mejorar tu experiencia de usuario. Si estás de acuerdo entendemos que aceptas nuestra politica de cookies.",
       "textButton": "Estoy de acuerdo"
     },
-    "favicon": "@PROJECT_PATH@/assets/images/190601-224-foto1-128x85.png",
+    "favicon": "@PROJECT_PATH@/assets/images/20180512-logo-aerosat-fondo-blanco-circular-128x113-7.png",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -92,7 +92,7 @@
                 "title": "INGENIERIA Y CONSULTORÍA",
                 "overlay": false,
                 "overlayOpacity": "0.1",
-                "text": "Recrecido de la pista de aterrizaje TFN",
+                "text": "Servicio de Ingeniería y Consultoría Aeronáutica y Aeroportuaria",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>",
                 "alt": ""
               },
@@ -128,34 +128,35 @@
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/190601-265-foto-5-1200x1599.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/img-20181122-124943-1024x768.jpg",
                 "contentAlign": "right",
                 "active": true,
-                "showButtons": true,
+                "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "FULL SCREEN SLIDER",
+                "title": "A aportar por vosotros 4",
                 "overlay": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "text": "Idem aportación 4",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>",
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/slider05.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20190329-wa0012-1600x1200.jpg",
                 "contentAlign": "left",
                 "active": false,
-                "showButtons": true,
+                "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "IMAGE SLIDE",
+                "title": "A aportar por vosotros 5",
                 "overlay": true,
                 "overlayOpacity": "0.5",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+                "text": "Otra actividad de la empresa 5",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "alt": ""
               }
             ]
           },
@@ -292,8 +293,8 @@
             "overlayColor": "#fffffd",
             "overlayOpacity": "0.5"
           },
-          "title": "Aerosat",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "title": "valores...",
+          "text": "Confiamos en la constante dedicación en la I+D+i junto con personal altamente cualificado, &nbsp;control de calidad permantente y tecnologías de vanguardia, esencial para cumplir con las expectativas de los aeropuertos en todo el mundo. Somos su solución!!!",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a>",
           "media1": {
             "iconFont": {
@@ -367,6 +368,9 @@
             ".heading-title": {
               "color": "#616161",
               "text-align": "center"
+            },
+            ".heading-text": {
+              "color": "#000000"
             }
           }
         },
