@@ -39,7 +39,7 @@
       "underlineLink": true,
       "opacity": "99",
       "opacityOverlay": "80",
-      "text": "Usamos  cookies para mejorar su experiencia. Por favor leer nuestra <a href='privacy.html'>Políticas de privacidad</a>.",
+      "text": "Usamos cookies para mejorar tu experiencia de usuario. Si estás de acuerdo entendemos que aceptas nuestra politica de cookies.",
       "textButton": "Estoy de acuerdo"
     },
     "favicon": "@PROJECT_PATH@/assets/images/190601-224-foto1-128x85.png",
@@ -62,17 +62,125 @@
       "components": [
         {
           "_styles": {
+            ".mbr-section-title, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-size": "60px",
+              "color": "#fffffd",
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": 5,
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/airplane-2745898-1920-1920x1281.jpeg",
+                "contentAlign": "center",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "title": "INGENIERIA Y CONSULTORÍA",
+                "overlay": false,
+                "overlayOpacity": "0.1",
+                "text": "Recrecido de la pista de aterrizaje TFN",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/slider02.jpg",
+                "contentAlign": "left",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "title": "DIRECCIÓN DE PROYECTOS",
+                "overlay": true,
+                "overlayOpacity": "0.2",
+                "text": "Direcciones de Obras aeroportuarías y asistencia técnica",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/airport-1682067-1920-1920x1439.jpg",
+                "contentAlign": "right",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "title": "SEGURIDAD OPERACIONAL",
+                "overlay": true,
+                "overlayOpacity": "0.3",
+                "text": "Desarrollo de PVSO / Servicios TESA - TASA / Formación",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/190601-265-foto-5-1200x1599.jpeg",
+                "contentAlign": "right",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "title": "FULL SCREEN SLIDER",
+                "overlay": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/slider05.jpg",
+                "contentAlign": "left",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "title": "IMAGE SLIDE",
+                "overlay": true,
+                "overlayOpacity": "0.5",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              }
+            ]
+          },
+          "arrowleft": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-left.png\">",
+          "arrowright": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-right.png\">",
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-6"
+        },
+        {
+          "_styles": {
             ".hide-buttons .nav-btn": {
               "display": "none !important"
             },
             ".navbar-toggler": {
-              "color": "#74a3c7"
+              "color": "#000000"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#74a3c7"
+              "background-color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#74a3c7",
+              "color": "#000000",
               "font-family": "'Libre Franklin', serif"
             },
             ".link": {
@@ -88,7 +196,7 @@
               "background": "@primaryColor"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#74a3c7"
+              "color": "#000000"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#ffffff"
@@ -100,7 +208,7 @@
               "background": "#fff"
             },
             ".bg-color.transparent .link": {
-              "color": "#74a3c7",
+              "color": "#000000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -111,6 +219,9 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#5aac98!important"
+            },
+            ".navbar-caption": {
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -128,7 +239,7 @@
               "css": "'Libre Franklin', serif",
               "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
             },
-            "fontColor": "#74a3c7",
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
@@ -181,7 +292,7 @@
             "overlayColor": "#fffffd",
             "overlayOpacity": "0.5"
           },
-          "title": "Full Screen Intro",
+          "title": "Aerosat",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a>",
           "media1": {
@@ -252,108 +363,12 @@
             },
             ".mbr-table-cell": {
               "vertical-align": "bottom"
+            },
+            ".heading-title": {
+              "color": "#616161",
+              "text-align": "center"
             }
           }
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-text": {
-              "color": "#fff"
-            }
-          },
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#fff",
-            "timeout": 5,
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/slider01.jpg",
-                "contentAlign": "center",
-                "active": true,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "Proyectos",
-                "overlay": false,
-                "overlayOpacity": "0.1",
-                "text": "ejecutados y por ejecutar",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/slider02.jpg",
-                "contentAlign": "left",
-                "active": false,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "IMAGE SLIDE",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              },
-              {
-                "image": "@THEME_PATH@/components/_images/slider/slider03.jpg",
-                "contentAlign": "right",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "VIDEO SLIDE",
-                "overlay": true,
-                "overlayOpacity": "0.3",
-                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/slider04.jpg",
-                "contentAlign": "right",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "FULL SCREEN SLIDER",
-                "overlay": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/slider05.jpg",
-                "contentAlign": "left",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "title": "IMAGE SLIDE",
-                "overlay": true,
-                "overlayOpacity": "0.5",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              }
-            ]
-          },
-          "arrowleft": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-left.png\">",
-          "arrowright": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-right.png\">",
-          "articleLayout": false,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_anchor": "slider-6"
         },
         {
           "_inherit": "features2",

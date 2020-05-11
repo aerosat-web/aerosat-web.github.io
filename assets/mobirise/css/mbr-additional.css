@@ -519,19 +519,28 @@ a:hover {
 .hamburger-icon:after {
   background-color: #5aac98;
 }
+#slider-6 .mbr-section-title,
+#slider-6 .mbr-section-text {
+  color: #fff;
+}
+#slider-6 .mbr-section-title {
+  font-size: 60px;
+  color: #fffffd;
+  text-align: center;
+}
 #menu2-1 .hide-buttons .nav-btn {
   display: none !important;
 }
 #menu2-1 .navbar-toggler {
-  color: #74a3c7;
+  color: #000000;
 }
 #menu2-1 .close-icon::before,
 #menu2-1 .close-icon::after {
-  background-color: #74a3c7;
+  background-color: #000000;
 }
 #menu2-1 .link,
 #menu2-1 .dropdown-item {
-  color: #74a3c7;
+  color: #000000;
   font-family: 'Libre Franklin', serif;
 }
 #menu2-1 .link {
@@ -551,7 +560,7 @@ a:hover {
 }
 #menu2-1 .dropdown-item:hover,
 #menu2-1 .dropdown-item:focus {
-  color: #74a3c7;
+  color: #000000;
 }
 #menu2-1 .link[aria-expanded="true"],
 #menu2-1 .dropdown-menu {
@@ -570,7 +579,7 @@ a:hover {
   background: #fff;
 }
 #menu2-1 .bg-color.transparent .link {
-  color: #74a3c7;
+  color: #000000;
   transition: none;
 }
 #menu2-1 .bg-color.transparent.opened .link {
@@ -584,6 +593,9 @@ a:hover {
 #menu2-1 .dropdown-item[aria-expanded="true"] {
   color: #5aac98!important;
 }
+#menu2-1 .navbar-caption {
+  font-size: 20px;
+}
 #header1-5 .mbr-iconfont {
   color: #616161;
   border-color: #616161;
@@ -591,9 +603,9 @@ a:hover {
 #header1-5 .mbr-table-cell {
   vertical-align: bottom;
 }
-#slider-6 .mbr-section-title,
-#slider-6 .mbr-section-text {
-  color: #fff;
+#header1-5 .heading-title {
+  color: #616161;
+  text-align: center;
 }
 #features4-3 .card {
   background-color: transparent;
