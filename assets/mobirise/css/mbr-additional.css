@@ -585,11 +585,15 @@ a:hover {
   color: #5aac98!important;
 }
 #header1-5 .mbr-iconfont {
-  color: #fff;
-  border-color: #fff;
+  color: #616161;
+  border-color: #616161;
 }
 #header1-5 .mbr-table-cell {
   vertical-align: bottom;
+}
+#slider-6 .mbr-section-title,
+#slider-6 .mbr-section-text {
+  color: #fff;
 }
 #features4-3 .card {
   background-color: transparent;
@@ -603,16 +607,4 @@ a:hover {
 #features4-3 .mbr-iconfont {
   color: #616161;
   border-color: #616161;
-}
-#custom-html-4 {
-  /* Type valid CSS here */
-}
-#custom-html-4 .my-image {
-  width: 100%;
-}
-#msg-box2-2 H1 {
-  color: #ffffff;
-}
-#msg-box2-2 P {
-  color: #ffffff;
 }
