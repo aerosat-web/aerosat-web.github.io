@@ -248,7 +248,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/20180512-logo-aerosat-fondo-blanco-circular-144x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-hd-sin-fondo-ico-129x128.png",
               "height": 128,
               "alt": "Aerosat logo",
               "link": "",
