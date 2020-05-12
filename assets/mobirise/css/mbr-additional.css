@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i&display=swap);
 
 
@@ -28,7 +27,7 @@ h6,
 .mbr-map [data-state-details],
 .mbr-price,
 .mbr-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Libre Franklin', serif;
 }
 .btn {
   font-family: 'Libre Franklin', serif;
@@ -45,7 +44,7 @@ h6,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Libre Franklin', serif;
 }
 .btn:not(.btn-social) {
   border-radius: 30px;
@@ -63,14 +62,14 @@ h6,
   font-style: normal;
 }
 .mbr-author-name {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Libre Franklin', serif;
 }
 .mbr-author-desc {
   font-family: 'Libre Franklin', serif;
   font-style: normal;
 }
 .mbr-plan-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Libre Franklin', serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
@@ -434,7 +433,7 @@ a:hover {
 .features12 .card .mbr-iconfont,
 .features14 .card .mbr-iconfont,
 .features16 .card .mbr-iconfont {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Libre Franklin', serif;
 }
 /*msg-box1*/
 .msg-box1 ul li:before {
@@ -597,7 +596,7 @@ a:hover {
 }
 #menu2-1 .navbar-caption {
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 #header1-5 .mbr-iconfont {
   color: #616161;
