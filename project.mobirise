@@ -232,7 +232,7 @@
             "hideButtons": true,
             "sticky": true,
             "collapsed": true,
-            "transparent": true,
+            "transparent": false,
             "bgColor": "#fff",
             "fontSize": 0.8125,
             "imageSize": "3",
