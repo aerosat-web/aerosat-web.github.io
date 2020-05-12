@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i&display=swap);
+
 
 
 
@@ -595,6 +597,7 @@ a:hover {
 }
 #menu2-1 .navbar-caption {
   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 #header1-5 .mbr-iconfont {
   color: #616161;
