@@ -529,6 +529,9 @@ a:hover {
   color: #fffffd;
   text-align: center;
 }
+#slider-6 .mbr-section-text {
+  text-align: center;
+}
 #menu2-1 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -553,11 +556,11 @@ a:hover {
 }
 #menu2-1 .link:hover,
 #menu2-1 .link:focus {
-  color: #5aac98;
+  color: #fa0909;
 }
 #menu2-1 .dropdown-item:hover::before,
 #menu2-1 .dropdown-item:focus::before {
-  background: #5aac98;
+  background: #fa0909;
 }
 #menu2-1 .dropdown-item:hover,
 #menu2-1 .dropdown-item:focus {
@@ -588,11 +591,11 @@ a:hover {
 }
 #menu2-1 .bg-color.transparent.opened .link:hover,
 #menu2-1 .bg-color.transparent.opened .link:focus {
-  color: #5aac98;
+  color: #fa0909;
 }
 #menu2-1 .link[aria-expanded="true"],
 #menu2-1 .dropdown-item[aria-expanded="true"] {
-  color: #5aac98!important;
+  color: #fa0909!important;
 }
 #menu2-1 .navbar-caption {
   font-size: 20px;

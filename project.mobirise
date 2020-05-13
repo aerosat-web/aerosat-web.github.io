@@ -21,7 +21,8 @@
       },
       "additionalSetColors": [
         "#ffffff",
-        "#ae1212"
+        "#ae1212",
+        "#fa0909"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -69,6 +70,9 @@
             ".mbr-section-title": {
               "font-size": "60px",
               "color": "#fffffd",
+              "text-align": "center"
+            },
+            ".mbr-section-text": {
               "text-align": "center"
             }
           },
@@ -131,7 +135,7 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/img-20181122-124943-1024x768.jpg",
                 "contentAlign": "right",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -146,7 +150,7 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/img-20190329-wa0012-1600x1200.jpg",
                 "contentAlign": "left",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -192,10 +196,10 @@
               "font-size": "0.880rem"
             },
             ".link:hover, .link:focus": {
-              "color": "@primaryColor"
+              "color": "#fa0909"
             },
             ".dropdown-item:hover::before, .dropdown-item:focus::before": {
-              "background": "@primaryColor"
+              "background": "#fa0909"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
               "color": "#000000"
@@ -217,10 +221,10 @@
               "transition": "color .2s ease-in-out"
             },
             ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
+              "color": "#fa0909"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#5aac98!important"
+              "color": "#fa0909!important"
             },
             ".navbar-caption": {
               "font-size": "20px",
@@ -244,9 +248,9 @@
               "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
             },
             "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "#fa0909"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://aerosat.tech\" aria-expanded=\"false\">¿QUIÉNES SOMOS?</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://aerosat.tech\" aria-expanded=\"false\">¿QUE HACEMOS?</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">PROYECTOS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://aerosat.tech\">Actuales</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://aerosat.tech\">Realizados</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">PROYECTOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://aerosat.tech\" aria-expanded=\"false\">CALIDAD</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mailto:admin@aerosat.tech\" aria-expanded=\"false\">CONTÁCTENOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\" aria-expanded=\"false\">¿QUIÉNES SOMOS?</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\" aria-expanded=\"false\">¿QUE HACEMOS?</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">PROYECTOS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://aerosat.tech\">Actuales</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://aerosat.tech\">Realizados</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\" aria-expanded=\"false\">PROYECTOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\" aria-expanded=\"false\">CALIDAD</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mailto:admin@aerosat.tech\" aria-expanded=\"false\">CONTÁCTENOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
